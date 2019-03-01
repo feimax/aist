@@ -11,7 +11,7 @@ setuptools.setup(
     description="AIST = AI Service Tools",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/feimax/aist",
     packages=setuptools.find_packages(),
     classifiers=[
         'Programming Language :: Python :: 2',
@@ -24,4 +24,11 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    install_requires=[
+        'requests',
+        'json',
+        'tqdm',
+        'multiprocessing',
+        'qiniu'
+    ]
 )

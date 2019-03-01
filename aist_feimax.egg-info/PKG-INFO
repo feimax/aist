@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: aist-feimax
+Version: 0.0.1
+Summary: AIST = AI Service Tools
+Home-page: https://github.com/pypa/sampleproject
+Author: Feimax
+Author-email: me@feimax.com
+License: UNKNOWN
+Description: AIST = AI Service Tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
