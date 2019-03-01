@@ -12,6 +12,7 @@ from multiprocessing.pool import ThreadPool as Pool
 from multiprocessing import cpu_count
 import time
 
+
 def get_image_pool(img_args):
     image_url = img_args['image_url']
     image_code = img_args['image_code']
