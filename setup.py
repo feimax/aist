@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="aist-feimax",
-    version="0.0.1",
+    name="aist",
+    version="0.0.3",
     author="Feimax",
     author_email="me@feimax.com",
     description="AIST = AI Service Tools",
@@ -26,9 +26,7 @@ setuptools.setup(
     ],
     install_requires=[
         'requests',
-        'json',
         'tqdm',
-        'multiprocessing',
         'qiniu'
     ]
 )

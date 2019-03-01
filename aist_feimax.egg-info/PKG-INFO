@@ -2,7 +2,7 @@ Metadata-Version: 2.1
 Name: aist-feimax
 Version: 0.0.1
 Summary: AIST = AI Service Tools
-Home-page: https://github.com/pypa/sampleproject
+Home-page: https://github.com/feimax/aist
 Author: Feimax
 Author-email: me@feimax.com
 License: UNKNOWN
