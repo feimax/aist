@@ -26,6 +26,16 @@ OCR扫描
 该功能用于将科研代码中的数据实时推送到微信端，通过我们的公众号实时推送到你的微信。
 
 
+安装方法
+-------
+```
+# 升级 pip 到最新版本
+python -m pip install --upgrade pip
+# 从 pip 安装 aist 模块
+pip install aist
+```
+
+
 使用方法
 ----------
 获取图片

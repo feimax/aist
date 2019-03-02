@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="aist",
-    version="0.2.0",
+    version="0.2.1",
     author="Feimax",
     author_email="me@feimax.com",
     description="AIST = AI Service Tools",
