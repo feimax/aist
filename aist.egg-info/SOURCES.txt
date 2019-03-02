@@ -2,8 +2,8 @@ README.md
 setup.py
 aist/__init__.py
 aist/aist.py
-aist/download.py
 aist/msg.py
+aist/pic.py
 aist.egg-info/PKG-INFO
 aist.egg-info/SOURCES.txt
 aist.egg-info/dependency_links.txt
