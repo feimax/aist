@@ -30,7 +30,7 @@ OCR扫描
 ----------
 获取图片
 ------------
-```
+```python
 from aist.pic import Download
 
 dn = Download('PC80000000')
@@ -46,7 +46,7 @@ dn.all('test')
 
 数据通道
 -----------
-```
+```python
 from aist.msg Import Msg
 
 # 这里要填写从 人工智能AIST 公众号里获取的数据通道的密钥。
