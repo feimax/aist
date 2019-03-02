@@ -3,11 +3,9 @@ from __future__ import unicode_literals
 
 import os
 from os.path import join
-import qiniu
 import requests, json
 from tqdm import tqdm
 from qiniu import etag
-import multiprocessing
 from multiprocessing.pool import ThreadPool as Pool
 from multiprocessing import cpu_count
 import time
