@@ -49,6 +49,9 @@ class Download(AistBase):
             hash_list.append(etag(join(save_path, f)))
 
         count = self.api('download', {'key': self.key, 'method': 'count'})
+        if 'error' in count.keys():
+            return count
+
         total_image_number = int(count['total'])
         total_page = int(count['page'])
 
@@ -84,6 +87,8 @@ class Download(AistBase):
 
     def ls(self, list_file=''):
         count = self.api('download', {'key': self.key, 'method': 'count'})
+        if 'error' in count.keys():
+            return count
         total_page = int(count['page'])
         image_list = []
         for p in range(total_page):

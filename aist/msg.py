@@ -1,7 +1,18 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals
+import requests, json
 
-from pic import AistBase
+
+class AistBase:
+    def __init__(self):
+        pass
+
+    @staticmethod
+    def api(api_name, data):
+        uri = 'http://sd.treee.com.cn/%s' % api_name
+        response = requests.post(uri, data=data)
+        print(response.text)
+        return json.loads(response.text)
 
 
 class Msg(AistBase):
