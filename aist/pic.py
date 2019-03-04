@@ -101,7 +101,10 @@ class Download(AistBase):
                 image_list.append({'image_name': image_code_list[i],
                                    'image_size': image_size_list[i],
                                    'contributor': image_wx_openid_list[i]})
-        with open(list_file, 'w') as f:
-            for im in image_list:
-                f.write('%s,%d,%s\n' % (im['image_name'], im['image_size'], im['contributor']))
-        return image_list
+        if list_file != '':
+            with open(list_file, 'w') as f:
+                for im in image_list:
+                    f.write('%s,%d,%s\n' % (im['image_name'], im['image_size'], im['contributor']))
+            return 'Save the image list to %s' % list_file
+        else:
+            return image_list
